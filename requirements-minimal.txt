@@ -1,0 +1,35 @@
+# Minimal Requirements - Works on Windows without C compiler
+# These are all pre-built wheels
+
+# Core - REQUIRED
+streamlit==1.28.1
+pydantic==2.5.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Image Processing - REQUIRED
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Numerical - Optional but helps
+numpy>=1.24.0
+
+# API Clients - Optional for advanced features
+elevenlabs>=0.2.26
+ffmpeg-python>=0.2.1
+moviepy>=1.0.3
+
+# Note: Packages NOT included (require C compiler):
+# - scipy
+# - torch
+# - torchvision
+# - transformers
+# - diffusers
+# - accelerate
+# - safetensors
+#
+# The app will use fallback implementations for these.
+# If you want to install them, you'll need:
+# - Visual Studio Build Tools, or
+# - MinGW compiler, or
+# - Use Google Colab (cloud alternative)

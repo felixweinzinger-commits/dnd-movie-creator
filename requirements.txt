@@ -1,0 +1,29 @@
+# Core Dependencies (REQUIRED)
+streamlit==1.28.1
+pydantic==2.5.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Image Processing (Windows-friendly)
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Numerical Computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# AI/ML Dependencies (CPU-friendly)
+# Note: These require a C compiler (Visual Studio, MinGW, etc.)
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+diffusers>=0.24.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+
+# Video/Audio Processing
+moviepy>=1.0.3
+ffmpeg-python>=0.2.1
+
+# API Clients
+elevenlabs>=0.2.26
